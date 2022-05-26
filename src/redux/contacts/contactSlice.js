@@ -13,6 +13,7 @@ export const contactsApi = createApi({
       return headers
     },
   }),
+  keepUnusedDataFor: 0,
   tagTypes: ['Contact'],
   endpoints: builder => ({
     fetchContacts: builder.query({
